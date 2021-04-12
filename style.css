@@ -8,6 +8,8 @@
     text-align: center;
     font-size: 4rem;
     color: rgb(0, 0, 0);
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 
     /* transform: translateY(5.25rem); */
 }
@@ -53,7 +55,10 @@ body {
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.747);
     border: 3px solid rgb(100, 100, 100);
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
 
 
 }
@@ -185,8 +190,34 @@ body {
 
 .bottom-text-leftbox {
 
+
     font-size: 1.25rem;
     font-weight: 500;
     color: #fafafa;
+    display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
+.left-side-text {
+    text-align: left;
+}
+
+.right-side-text {
+    text-align: right;
+    padding-left: 11rem;
+}
+
+
+/* RIGHT BOX */
+
+.right-title {
+    text-decoration: underline;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 0;
+    margin-top: -5px;
 }
