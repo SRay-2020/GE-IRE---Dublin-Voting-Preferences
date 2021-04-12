@@ -155,7 +155,7 @@ body {
     stroke-width: 0.7683;
 }
 
-
+/* USER FEEDBACK ON MAP */
 
 .fb-left path {
     fill: rgb(175, 145, 61);
@@ -168,4 +168,25 @@ body {
     fill: #38A6A5;
     transition: 0.6s;
     cursor: pointer;
+
+}
+
+/* TEXT LEFT BOX */
+
+.fb-left-title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 0;
+    margin-top: -60px;
+}
+
+.bottom-text-leftbox {
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fafafa;
+
 }
