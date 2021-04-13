@@ -39,7 +39,8 @@ body {
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(135, 128, 199);
+    /* background-color: rgb(137, 130, 201); */
+    background: radial-gradient(#c7c7c7, #8965b8);
 }
 
 .flexbox-container {
