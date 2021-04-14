@@ -235,7 +235,7 @@ body {
 
 table {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 18px;
     background-color: rgb(226, 226, 226);
     transform: translate(0, -80px);
 }
@@ -256,9 +256,9 @@ th {
     text-align: left;
 }
 
-
-
-
+.table-head {
+    border: 2px solid rgb(0, 0, 0);
+}
 
 
 
@@ -272,7 +272,7 @@ th {
 
 .dub-seats-pie {
 
-    transform: translate(-27px, 230px);
+    transform: translate(260px, -60px);
 }
 
 .dub-seats-pie path:hover {
