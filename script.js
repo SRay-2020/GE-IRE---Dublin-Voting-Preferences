@@ -1,4 +1,4 @@
-var li_elements = document.querySelectorAll(".warpper-left ul li");
+var li_elements = document.querySelectorAll(".wrapper-left ul li");
 
 for (var i = 0; i < li_elements.length; i++) {
     li_elements[i].addEventListener("click", function () {
@@ -6,5 +6,6 @@ for (var i = 0; i < li_elements.length; i++) {
             li.classList.remove("active");
         })
         this.classList.add("active");
+        var li_value = this.getAttribute("data-li");
     })
 }

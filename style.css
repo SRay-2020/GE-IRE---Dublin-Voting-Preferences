@@ -353,7 +353,7 @@ th {
     position: absolute;
     top: 50%;
     bottom: 50%;
-    transform: translate(71%, -50%);
+    transform: translate(500px, -300px);
     background: rgb(40, 28, 66);
     width: 800px;
     height: 680px;
@@ -429,4 +429,48 @@ th {
 
     width: 100%;
     transition: all 0.2s ease;
+}
+
+.wrapper-right {
+    width: 550px;
+    padding: 30px 50px;
+}
+
+.wrapper-right .title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #6b6b93;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.wrapper-right .item .item_info {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.wrapper-right .item .item_info .img {
+
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.wrapper-right .item .item_info .img::before {
+
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(fingal.png) no-repeat 0 0;
+    width: 100px;
+    height: 100px;
 }
