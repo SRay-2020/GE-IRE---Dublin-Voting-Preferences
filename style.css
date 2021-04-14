@@ -261,7 +261,11 @@ th {
 }
 
 
+.dub-bars {
+    transform: translate(-15px, -460px);
+    max-width: 55%;
 
+}
 
 
 
@@ -272,7 +276,9 @@ th {
 
 .dub-seats-pie {
 
-    transform: translate(260px, -60px);
+    transform: translate(295px, -43px);
+    /* Shows outline of SVG - NEED FIX */
+    /* border: 2px solid black; */
 }
 
 .dub-seats-pie path:hover {
