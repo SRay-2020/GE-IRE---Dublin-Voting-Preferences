@@ -233,6 +233,41 @@ body {
     margin-top: -5px;
 }
 
+table {
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(226, 226, 226);
+    transform: translate(0, -80px);
+}
+
+.dub-info-table {
+    border: 4px solid rgb(0, 0, 0);
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(173, 139, 25);
+}
+
+table,
+th {
+
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PIE CHART */
 
 .dub-seats-pie {
