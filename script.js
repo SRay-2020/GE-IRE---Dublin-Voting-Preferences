@@ -12,7 +12,6 @@ for (var i = 0; i < li_elements.length; i++) {
             item.style.display = "none";
         })
 
-
         if (li_value == "fingal") {
             document.querySelector("." + li_value).style.display = "block";
         } else if (li_value == "dbn") {
@@ -21,8 +20,22 @@ for (var i = 0; i < li_elements.length; i++) {
             document.querySelector("." + li_value).style.display = "block";
         } else if (li_value == "dc") {
             document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dmw") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dnw") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "drd") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dsc") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dsw") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dw") {
+            document.querySelector("." + li_value).style.display = "block";
+        } else if (li_value == "dl") {
+            document.querySelector("." + li_value).style.display = "block";
         } else {
-            console.log("");
+            console.log("not work");
         }
     });
 }
