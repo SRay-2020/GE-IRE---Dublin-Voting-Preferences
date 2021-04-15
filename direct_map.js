@@ -1,7 +1,8 @@
-$(document).ready(function () {
+if addEventListener click = true on dubbn
 
-    $(".dubwest").click(function () {
-        $(".navLink").removeClass("active");
-        $(this).addClass("active");
-    });
-});
+let {
+    link to page 2 &&
+        li fingal = active &&
+        item fingal = block display true
+
+}
