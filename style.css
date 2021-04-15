@@ -31,7 +31,7 @@ html {
 }
 
 body {
-    min-height: 100;
+    min-height: 100%;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -470,7 +470,7 @@ th {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(fingal.png) no-repeat 0 0;
+    background: url(/assets/img/fingal1.png) no-repeat 0 0;
     width: 100px;
     height: 100px;
 }
