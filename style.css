@@ -463,17 +463,58 @@ th {
     position: relative;
 }
 
-.wrapper-right .item .item_info .img::before {
+.wrapper-right .item .item_info .img:before {
 
     content: "";
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: url("/assets/img/dubbarchart.png");
+    transform: translate(-55%, -37%);
+    background: url("/assets/img/fingal1.png")no-repeat 0 0;
     width: 100px;
     height: 100px;
+
 }
+
+.wrapper-right .item.fingal .item_info .img:before {
+
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.wrapper-right .item.dbn .item_info .img:before {
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.wrapper-right .item.dbs .item_info .img:before {
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+.wrapper-right .item.dc .item_info .img:before {
+    background-position: 0 0;
+    width: 100px;
+    height: 100px;
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .wrapper-right .item .item_info p {
 
