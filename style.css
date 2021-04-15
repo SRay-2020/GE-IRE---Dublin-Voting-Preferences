@@ -507,18 +507,8 @@ th {
 
 
 
-
-
-
-
-
-
-
-
-
 .wrapper-right .item .item_info p {
-
-    background: #fff;
+    background: #FFFFFF;
     width: 150px;
     padding: 10px;
     border-radius: 5px;
@@ -526,4 +516,25 @@ th {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+}
+
+.wrapper-right .item.fingal .item_info p {
+    color: #dd0330;
+}
+
+.wrapper-right .item.dbn .item_info p {
+    color: #8bc500;
+}
+
+.wrapper-right .item.dbs .item_info p {
+    color: #61dafb;
+}
+
+.wrapper-right .item.dc .item_info p {
+    color: #41b783;
+}
+
+.wrapper-right .item p {
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
