@@ -470,7 +470,19 @@ th {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(/assets/img/fingal1.png) no-repeat 0 0;
+    background: url("/assets/img/dubbarchart.png");
     width: 100px;
     height: 100px;
+}
+
+.wrapper-right .item .item_info p {
+
+    background: #fff;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #abaacd;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
 }
