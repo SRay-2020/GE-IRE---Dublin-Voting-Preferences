@@ -1,20 +1,8 @@
-// if addEventListener click = true on dubbn
+var map_elements = document.querySelectorAll(".svg a");
 
-// let {
-//     link to page 2 &&
-//         li fingal = active &&
-//         item fingal = block display true
+map_elements.onclick = function () {
 
-// }
-// var map_elements = document.querySelectorAll(".cvg a");
-
-
-// document.getElementById("dubBayer").addEventListener("click", myMapPath);
-
-// function myMapPath() {
-//     location.href = "https://www.google.ie"
-// }
-
-document.getElementById("dubBayer").onclick = function () {
-    location.href = "www.google.ie";
+    alert("Hello! You clicked");
 };
+
+map_elements;
