@@ -42,3 +42,16 @@ for (var i = 0; i < li_elements.length; i++) {
         }
     });
 }
+
+function loadDetail() {
+    const bkmark = window.location.hash
+    let element = ""
+    if (bkmark) {
+        element = document.getElementById(bkmark.substring(1))
+    }
+    if (element == null || !bkmark) {
+        element = document.getElementById("fing")
+    }
+    element.click();
+
+}
