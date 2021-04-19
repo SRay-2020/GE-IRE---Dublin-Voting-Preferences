@@ -53,5 +53,17 @@ function loadDetail() {
         element = document.getElementById("fing")
     }
     element.click();
-
 }
+
+// function flipCard(card) {
+//     if (this.canFlipCard(card)) {
+
+//         this.ticker.innerText = this.totalClicks;
+//         card.classList.add('visible');
+
+//         if (this.cardToCheck) {
+//             this.checkForCardMatch(card);
+//         } else
+//             this.cardToCheck = card;
+//     }
+// }
