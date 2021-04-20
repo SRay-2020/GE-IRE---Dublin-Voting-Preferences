@@ -681,9 +681,9 @@ th {
 
 .const-table {
 
-    transform: translate(371px, -37px);
-    width: 76%;
-    font-size: 18px;
+    transform: translate(477px, 15px);
+    width: 25rem;
+    font-size: 19px;
     background-color: rgb(226, 226, 226);
 }
 
@@ -714,8 +714,8 @@ th {
 }
 
 .const-para-text {
-
-    transform: translate(138px, -72px);
+    width: 140%;
+    transform: translate(23px, -72px);
     margin-right: 0rem;
     text-align: justify
 }
@@ -745,4 +745,23 @@ th {
 
 .biggest-title {
     font-size: 36px !important;
+}
+
+.chart-wrapper {
+
+    position: relative;
+    transform: translate(-244px, -26px);
+    background: rgba(189, 174, 221, 0.75)5);
+    width: 35rem;
+    height: 20rem;
+    display: flex;
+    border-radius: 12px;
+    /* justify-content: center; */
+    float: left
+}
+
+.const-section-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    float: left
 }
