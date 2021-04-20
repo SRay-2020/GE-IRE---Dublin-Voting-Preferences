@@ -476,49 +476,184 @@ th {
     border-radius: 50%;
     margin-bottom: 20px;
     position: relative;
+    transform: translate(-78%, -2%);
 }
 
 .wrapper-right .item .item_info .img:before {
 
     content: "";
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-55%, -37%);
-    /* background: url("/assets/img/fingal1.png")no-repeat 0 0; */
-    width: 100px;
-    height: 100px;
+    transform: translate(0%, 28%);
+    background: url("assets/img/DubFingal.png")no-repeat;
+    width: 6rem;
 
 }
 
-.wrapper-right .item.fingal .item_info .img:before {
+/* CONSTITUENCY MAP IMAGES */
 
+.wrapper-right .item.fingal .item_info .img:before {
     background-position: 0 0;
-    width: 100px;
-    height: 100px;
-    ;
+    width: 211px;
+    height: 165px;
+    transform: translate(-5%, 8%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubFingal.png);
+    background-size: cover;
 }
 
 .wrapper-right .item.dbn .item_info .img:before {
     background-position: 0 0;
-    width: 100px;
-    height: 100px;
-    ;
+    width: 262px;
+    height: 240px;
+    transform: translate(-28%, -7%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubBNorth.png);
+    background-size: cover;
 }
 
 .wrapper-right .item.dbs .item_info .img:before {
     background-position: 0 0;
-    width: 100px;
-    height: 100px;
-    ;
+    width: 200px;
+    height: 161px;
+    transform: translate(0%, 9%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubBSouth.png);
+    background-size: cover;
 }
 
 .wrapper-right .item.dc .item_info .img:before {
     background-position: 0 0;
-    width: 100px;
-    height: 100px;
-    ;
+    width: 206px;
+    height: 183px;
+    transform: translate(-5%, 9%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubCentral.png);
+    background-size: cover;
 }
+
+.wrapper-right .item.dmw .item_info .img:before {
+    background-position: 0 0;
+    width: 187px;
+    height: 236px;
+    transform: translate(5%, -12%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubMWest.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.dnw .item_info .img:before {
+    background-position: 0 0;
+    width: 239px;
+    height: 166px;
+    transform: translate(-9%, 10%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubNWest.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.drd .item_info .img:before {
+    background-position: 0 0;
+    width: 175px;
+    height: 195px;
+    transform: translate(7%, 2%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubRDown.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.dsc .item_info .img:before {
+    background-position: 0 0;
+    width: 200px;
+    height: 159px;
+    transform: translate(-7%, 15%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubSCentral.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.dsw .item_info .img:before {
+    background-position: 0 0;
+    width: 213px;
+    height: 207px;
+    transform: translate(-3%, -2%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubSWest.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.dw .item_info .img:before {
+    background-position: 0 0;
+    width: 197px;
+    height: 185px;
+    transform: translate(4%, 2%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubWest.png);
+    background-size: cover;
+}
+
+.wrapper-right .item.dl .item_info .img:before {
+    background-position: 0 0;
+    width: 180px;
+    height: 206px;
+    transform: translate(7%, 0%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubDLaogh.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -626,4 +761,12 @@ th {
 .card-back {
     display: flex;
     position: relative;
+}
+
+
+.img-fing {
+
+    width: 3rem;
+    height: ;
+    transform: translate(0px, 0px);
 }
