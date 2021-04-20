@@ -476,7 +476,7 @@ th {
     border-radius: 50%;
     margin-bottom: 20px;
     position: relative;
-    transform: translate(-78%, -2%);
+    transform: translate(-47%, -2%);
 }
 
 .wrapper-right .item .item_info .img:before {
@@ -606,66 +606,22 @@ th {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .wrapper-right .item .item_info p {
+    font-size: 35px;
+    line-height: 35px;
     background: #FFFFFF;
-    width: 150px;
+    width: 319px;
+    height: 70px;
     padding: 10px;
     border-radius: 5px;
+    border-color: solid 2px #000000;
     color: #abaacd;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    transform: translate(13px, -28px);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .wrapper-right .item p {
@@ -718,22 +674,11 @@ th {
     color: #b60b74;
 }
 
-
-/* FINGAL PAGE */
-
-.fingal p {
-    align-content: stretch;
-    text-align: justify;
-    width: 125%;
-    padding: 0rem;
-}
-
-
 .const-table {
 
-    transform: translate(150px, -10px);
-    width: 100%;
-    font-size: 14px;
+    transform: translate(316px, -42px);
+    width: 68%;
+    font-size: 16px;
     background-color: rgb(226, 226, 226);
 }
 
@@ -763,10 +708,28 @@ th {
     position: relative;
 }
 
+.const-para-text {
 
-.img-fing {
+    transform: translate(138px, -72px);
+    margin-right: 0rem;
+    text-align: justify
+}
 
-    width: 3rem;
-    height: ;
-    transform: translate(0px, 0px);
+.const-title {
+
+    font-size: 35px;
+    line-height: 35px;
+    background: #FFFFFF;
+    width: 224px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: solid 2px #000000;
+    color: #abaacd;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* text-align: center; */
+    transform: translate(-122px, -9px);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
