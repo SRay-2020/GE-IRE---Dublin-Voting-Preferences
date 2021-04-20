@@ -74,7 +74,8 @@ body {
 .flexbox-container {
     display: flex;
     justify-content: center;
-    max-height: 50rem;
+    height: 47rem;
+
 
 
 }
@@ -83,8 +84,8 @@ body {
 
     width: 38rem;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.747);
-    border: 3px solid rgb(100, 100, 100);
+    background-color: rgb(40, 28, 66);
+    border: 3px solid rgb(48, 48, 48);
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
@@ -218,6 +219,7 @@ body {
     padding-bottom: 6rem;
     padding-top: 0;
     margin-top: -60px;
+    line-height: 30px;
 }
 
 .bottom-text-leftbox {
@@ -229,7 +231,7 @@ body {
     display: flex;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    transform: translate(0rem, -7rem);
+    transform: translate(0rem, -8rem);
 }
 
 .left-side-text {
@@ -368,12 +370,12 @@ th {
     transform: translate(261px, -26px);
     background: rgb(40, 28, 66);
     width: 87rem;
-    height: 48rem;
+    height: 47rem;
     display: flex;
     border-radius: 12px;
 
     justify-content: center;
-    max-height: 50rem;
+    max-height: 47rem;
 }
 
 .wrapper .wrapper-left {
@@ -391,7 +393,7 @@ th {
 .wrapper .wrapper-left ul li {
 
     background: #313142;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     border-radius: 3px;
     padding: 12px 25px;
     text-transform: uppercase;
@@ -458,7 +460,7 @@ th {
     color: #6b6b93;
     margin-bottom: 0px;
     text-transform: uppercase;
-    transform: translate(8rem, 0%);
+    transform: translate(4rem, 0%);
 
 }
 
@@ -507,9 +509,9 @@ th {
     background-position: 0 0;
     width: 262px;
     height: 240px;
-    transform: translate(-28%, -7%);
+    transform: translate(-21%, -3%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubBNorth.png);
+    background-image: url(/assets/img/DubBNorth1.png);
     background-size: cover;
 }
 
@@ -517,9 +519,9 @@ th {
     background-position: 0 0;
     width: 200px;
     height: 161px;
-    transform: translate(0%, 9%);
+    transform: translate(10%, 23%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubBSouth.png);
+    background-image: url(/assets/img/DubBSouth1.png);
     background-size: cover;
 }
 
@@ -527,7 +529,7 @@ th {
     background-position: 0 0;
     width: 206px;
     height: 183px;
-    transform: translate(-5%, 9%);
+    transform: translate(5%, 16%);
     border-radius: 50%;
     background-image: url(/assets/img/DubCentral.png);
     background-size: cover;
@@ -537,9 +539,9 @@ th {
     background-position: 0 0;
     width: 187px;
     height: 236px;
-    transform: translate(5%, -12%);
+    transform: translate(14%, -6%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubMWest.png);
+    background-image: url(/assets/img/DubMWest1.png);
     background-size: cover;
 }
 
@@ -547,9 +549,9 @@ th {
     background-position: 0 0;
     width: 239px;
     height: 166px;
-    transform: translate(-9%, 10%);
+    transform: translate(-4%, 22%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubNWest.png);
+    background-image: url(/assets/img/DubNWest1.png);
     background-size: cover;
 }
 
@@ -557,9 +559,9 @@ th {
     background-position: 0 0;
     width: 175px;
     height: 195px;
-    transform: translate(7%, 2%);
+    transform: translate(17%, 10%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubRDown.png);
+    background-image: url(/assets/img/DubRDown1.png);
     background-size: cover;
 }
 
@@ -567,9 +569,9 @@ th {
     background-position: 0 0;
     width: 200px;
     height: 159px;
-    transform: translate(-7%, 15%);
+    transform: translate(1%, 25%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubSCentral.png);
+    background-image: url(/assets/img/DubSCentral1.png);
     background-size: cover;
 }
 
@@ -577,29 +579,29 @@ th {
     background-position: 0 0;
     width: 213px;
     height: 207px;
-    transform: translate(-3%, -2%);
+    transform: translate(4%, 4%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubSWest.png);
+    background-image: url(/assets/img/DubSWest1.png);
     background-size: cover;
 }
 
 .wrapper-right .item.dw .item_info .img:before {
     background-position: 0 0;
-    width: 197px;
-    height: 185px;
-    transform: translate(4%, 2%);
+    width: 187px;
+    height: 190px;
+    transform: translate(12%, 10%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubWest.png);
+    background-image: url(/assets/img/DubWest1.png);
     background-size: cover;
 }
 
 .wrapper-right .item.dl .item_info .img:before {
     background-position: 0 0;
-    width: 180px;
-    height: 206px;
-    transform: translate(7%, 0%);
+    width: 187px;
+    height: 207px;
+    transform: translate(15%, 6%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubDLaogh.png);
+    background-image: url(/assets/img/DubDLaogh1.png);
     background-size: cover;
 }
 
@@ -621,8 +623,8 @@ th {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    transform: translate(13px, -28px);
-    -webkit-text-stroke-width: 1px;
+    transform: translate(-50px, -28px);
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
     align-content: center;
 }
@@ -735,4 +737,12 @@ th {
     transform: translate(-122px, -9px);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+
+.bigger-title {
+    font-size: 39px !important;
+}
+
+.biggest-title {
+    font-size: 36px !important;
 }
