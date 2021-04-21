@@ -785,9 +785,10 @@ th {
 
 .const-table-2 {
     text-align: center !important;
-    transform: translate(462px, -64px);
-    width: 22rem;
+    transform: translate(462px, -70px);
+    width: 21rem;
     font-size: 19px;
+    font-weight: 600;
     background-color: rgb(226, 226, 226);
     /* display: table-cell; */
     /* max-width: 0px; */
