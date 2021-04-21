@@ -276,12 +276,12 @@ td {
 
 table,
 th {
-
-    text-align: left;
+    text-align: center;
 }
 
 .table-head {
     border: 2px solid rgb(0, 0, 0);
+
 }
 
 
@@ -679,13 +679,6 @@ th {
     color: #b60b74;
 }
 
-.const-table {
-
-    transform: translate(477px, 15px);
-    width: 25rem;
-    font-size: 19px;
-    background-color: rgb(226, 226, 226);
-}
 
 /* FLIP FUNCTION  */
 
@@ -749,8 +742,8 @@ th {
 
 .chart-wrapper {
 
-    position: relative;
-    transform: translate(-244px, -26px);
+    position: absolute;
+    transform: translate(-227px, -26px);
     background: rgba(189, 174, 221, 0.75)5);
     width: 35rem;
     height: 20rem;
@@ -765,3 +758,105 @@ th {
     flex-wrap: wrap;
     float: left
 }
+
+
+.const-section-bottom .chart-wrapper {
+
+    width: 25rem;
+    background: rgba(199, 196, 214, 0.9) !important;
+    padding: 1rem 6rem;
+    align-items: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-radius: 4px;
+    /* transform: translate(0px, 0px); */
+
+    /* transform: translate(-237px, 0px); */
+}
+
+.const-table {
+
+    transform: translate(61px, 21px);
+    width: 26rem;
+    font-size: 20px;
+    background-color: rgb(226, 226, 226);
+}
+
+
+.const-table-2 {
+    text-align: center !important;
+    transform: translate(476px, -61px);
+    width: 26rem;
+    font-size: 20px;
+    background-color: rgb(226, 226, 226);
+    /* display: table-cell; */
+    /* max-width: 0px; */
+    border: 1px solid gray;
+
+}
+
+.table-head-2 {
+    border: 2px solid rgb(255, 0, 0);
+    text-align: center !important;
+}
+
+.sf-color-box {
+
+    background-color: #093505;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.ff-color-box {
+    background-color: rgb(26, 151, 22);
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.gp-color-box {
+
+    background-color: #53974d;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.fg-color-box {
+    background-color: #0602c5;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.lab-color-box {
+    background-color: #ff0000;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sdem-color-box {
+    background-color: rgb(97, 1, 187);
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.sf-color-box {}
+
+.sf-color-box {}
+
+.sf-color-box {}
+
+.sf-color-box {}
+
+.sf-color-box {}
