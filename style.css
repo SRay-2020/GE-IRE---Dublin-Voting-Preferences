@@ -792,6 +792,7 @@ th {
     /* display: table-cell; */
     /* max-width: 0px; */
     border: 1px solid gray;
+    table-layout: fixed;
 
 }
 
@@ -851,12 +852,22 @@ th {
     color: #fff;
 }
 
-.sf-color-box {}
+.s-pbp-color-box {
 
-.sf-color-box {}
+    background-color: rgb(110, 46, 9);
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
 
-.sf-color-box {}
+}
 
-.sf-color-box {}
+.i4c-color-box {
 
-.sf-color-box {}
+    background-color: rgb(209, 95, 212);
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+
+}
