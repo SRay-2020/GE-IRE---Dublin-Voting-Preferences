@@ -743,26 +743,26 @@ th {
 .chart-wrapper {
 
     position: absolute;
-    transform: translate(-227px, -26px);
+    transform: translate(-235px, -71px);
     background: rgba(189, 174, 221, 0.75)5);
     width: 35rem;
-    height: 20rem;
+    height: 23rem;
     display: flex;
     border-radius: 12px;
     /* justify-content: center; */
-    float: left
+    float: left;
 }
 
 .const-section-bottom {
     display: flex;
     flex-wrap: wrap;
-    float: left
+    float: left;
 }
 
 
 .const-section-bottom .chart-wrapper {
 
-    width: 25rem;
+    width: 30rem;
     background: rgba(199, 196, 214, 0.9) !important;
     padding: 1rem 6rem;
     align-items: left;
@@ -776,18 +776,18 @@ th {
 
 .const-table {
 
-    transform: translate(61px, 21px);
-    width: 26rem;
-    font-size: 20px;
+    transform: translate(461px, -50px);
+    width: 19rem;
+    font-size: 18px;
     background-color: rgb(226, 226, 226);
 }
 
 
 .const-table-2 {
     text-align: center !important;
-    transform: translate(476px, -61px);
-    width: 26rem;
-    font-size: 20px;
+    transform: translate(462px, -64px);
+    width: 22rem;
+    font-size: 19px;
     background-color: rgb(226, 226, 226);
     /* display: table-cell; */
     /* max-width: 0px; */
@@ -869,5 +869,36 @@ th {
     text-align: center;
     font-weight: 500;
     color: #fff;
+
+}
+
+/* 
+.wrapper-right .item.fingal .item_info .img:before {
+    background-position: 0 0;
+    width: 219px;
+    height: 170px;
+    transform: translate(2%, 18%);
+    border-radius: 50%;
+    background-image: url(/assets/img/DubFing.png);
+    background-size: cover;
+} */
+
+/* .const-section-bottom .chart-wrapper .charts-img {
+
+    width: 219px;
+    height: 170px;
+    transform: translate(0%, 0%);
+    border-radius: 50%;
+    background-image: url(/assets/img/Fingalchart2.svg);
+    background-size: cover;
+    display: inline-block;
+} */
+
+.chart-img {
+    color: #000000;
+    width: 43rem;
+    height: 25rem;
+    transform: translate(-100px, -18px);
+    padding: 0px;
 
 }
