@@ -257,21 +257,112 @@ body {
     margin-top: -5px;
 }
 
-/* TABLE STYLING  */
+/* PAGE 1 TABLE STYLING  */
 
 
 .dub-info-table {
     /* width: 100%;
     
    border: 2px solid rgb(173, 139, 25) border: 2px solid rgb(0, 0, 0);
-    transform: translate(0, -45px);
+    
     border: 4px solid rgb(0, 0, 0); */
+    width: 575px;
+    height: 304px;
+    transform: translate(15px, -59px);
     border-collapse: collapse;
-    margin: 25px;
-    font-size: 2rem;
-    min-width: 400px;
+    margin: 0px;
+    font-size: 17px;
+
     background-color: rgb(226, 226, 226);
 }
+
+.dub-info-table thead tr {
+
+    background-color: #9c7725;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.dub-info-table th,
+.dub-info-table td {
+    padding: 6px 8px;
+}
+
+.dub-info-table tbody tr {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.dub-info-table tbody tr:nth-of-type(even) {
+
+    background-color: #f3f3f3;
+}
+
+.dub-info-table tbody tr:last-of-type {
+
+    border-bottom: 2px solid #47350e;
+}
+
+
+/* page 2 TABLE  */
+
+.const-table {
+
+    transform: translate(461px, -350px);
+    width: 14rem;
+    font-size: 18px;
+    background-color: rgb(226, 226, 226);
+    border-collapse: collapse;
+    margin: 0px;
+
+}
+
+.const-table thead tr {
+
+    background-color: #9c7725;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.const-table th,
+.const-table td {
+    padding: 2px 4px;
+}
+
+.const-table tbody tr {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.const-table tbody tr:nth-of-type(even) {
+
+    background-color: #f3f3f3;
+}
+
+.const-table tbody tr:last-of-type {
+
+    border-bottom: 2px solid #47350e;
+}
+
+
+
+
+
+
+.const-table-2 {
+    text-align: center !important;
+    transform: translate(462px, -368px);
+    width: 21rem;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: rgb(226, 226, 226);
+    /* display: table-cell; */
+    /* max-width: 0px; */
+    border: 1px solid gray;
+    table-layout: fixed;
+
+}
+
 
 
 
@@ -900,9 +991,9 @@ body {
 
 
 .chart-box {
-    width: 608px;
+    width: 578px;
     height: 306px;
-    transform: translate(1px, -9px);
+    transform: translate(15px, -44px);
     color: #000000;
     font-weight: 600;
 }
