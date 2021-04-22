@@ -776,7 +776,7 @@ th {
 
 .const-table {
 
-    transform: translate(461px, -50px);
+    transform: translate(461px, -350px);
     width: 19rem;
     font-size: 18px;
     background-color: rgb(226, 226, 226);
@@ -785,7 +785,7 @@ th {
 
 .const-table-2 {
     text-align: center !important;
-    transform: translate(462px, -70px);
+    transform: translate(462px, -368px);
     width: 21rem;
     font-size: 19px;
     font-weight: 600;
@@ -902,4 +902,21 @@ th {
     transform: translate(-100px, -18px);
     padding: 0px;
 
+}
+
+/* Bar Chart Styles */
+
+
+.chart-box {
+    width: 608px;
+    height: 306px;
+    transform: translate(1px, -9px);
+    color: #000000;
+    font-weight: 600;
+}
+
+.chart-js-trial {
+    width: 674px;
+    height: 312px;
+    transform: translate(-245px, -29px);
 }
