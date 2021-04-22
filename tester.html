@@ -112,7 +112,7 @@
                                 </div> -->
 
                                 <div class="chart-js-trial">
-                                    <canvas id="myChart1"></canvas>
+                                    <canvas id="myChart1" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
 
                                 <table class="const-table-2">
@@ -221,7 +221,7 @@
                                     <img class="chart-img" src="/assets/img/DBNnew1.svg" alt="">
                                 </div> -->
                                 <div class="chart-js-trial">
-                                    <canvas id="myChart2"></canvas>
+                                    <canvas id="myChartdbn" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
@@ -322,10 +322,9 @@
                         </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DBSnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdbs" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
-
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
                                         <th>GP</th>
@@ -423,8 +422,8 @@
                         <span class="const-section-bottom">
 
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DCnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdc" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
 
                                 <table class="const-table-2">
@@ -525,8 +524,8 @@
 
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DMWnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdmw" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
@@ -615,8 +614,8 @@
                             est placerat in egestas. Habitant morbi tristique senectus et netus et. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DNWnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdnw" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
 
                                 <table class="const-table-2">
@@ -711,10 +710,9 @@
                             est placerat in egestas. Habitant morbi tristique senectus et netus et. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DRDnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdrd" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
-
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
                                         <th>GP</th>
@@ -805,8 +803,8 @@
                             Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DSCnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdsc" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
 
                                 <table class="const-table-2">
@@ -905,8 +903,8 @@
                             est placerat in egestas. Habitant morbi tristique senectus et netus et. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DSWnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdsw" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
@@ -1005,8 +1003,8 @@
                             est placerat in egestas. Habitant morbi tristique senectus et netus et. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DWnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdw" style="background-color: rgb(241, 199, 247);"></canvas>
                                 </div>
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
@@ -1107,8 +1105,8 @@
                             est placerat in egestas. </p>
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
-                                    <img class="chart-img" src="/assets/img/DLnew1.svg" alt="">
+                                <div class="chart-js-trial">
+                                    <canvas id="myChartdl" style="background-color: rgba(0, 0, 0, 0.5);"></canvas>
                                 </div>
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
@@ -1206,10 +1204,263 @@
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['SF', 'FG', 'FF', 'GP', 'SD', 'S-PBP'],
+                labels: ['SF', 'FF', 'FG', 'GP', 'LAB', 'I4C', 'SD', 'IND'],
                 datasets: [{
                     label: '# of First Preference Votes',
-                    data: [12, 19, 3, 5, 2, 3],
+                    data: [24.89, 21.49, 14.96, 13.24, 7.11, 3.99, 3.48, 9.01],
+                    backgroundColor: [
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(209, 95, 212, 1)',
+                        'rgba(97, 1, 187, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdbn').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FG', 'FF', 'LAB', 'SD', 'GP', 'S-PBP', 'IND'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [29.81, 18.76, 14.38, 11.35, 8.70, 7.04, 2.98, 5.61],
+                    backgroundColor: [
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(97, 1, 187, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(110, 46, 9, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdbs').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['FG', 'GP', 'SF', 'FF', 'LAB', 'SD', 'S-PBP', 'IND'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [27.71, 22.45, 16.07, 13.83, 7.88, 4.55, 2.53, 4.98],
+                    backgroundColor: [
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(97, 1, 187, 1)',
+                        'rgba(110, 46, 9, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdc').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FG', 'GP', 'FF', 'SD', 'LAB', 'S-PBP', 'IND'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [35.7, 15.11, 12.25, 10.27, 9.26, 5.41, 3.11, 7.04],
+                    backgroundColor: [
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(97, 1, 187, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(110, 46, 9, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdmw').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FG', 'FF', 'S-PBP', 'GP', 'LAB', 'IND'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [42.82, 17.57, 12.32, 7.86, 6.13, 3.39, 9.91],
+                    backgroundColor: [
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(110, 46, 9, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdnw').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'SD', 'FF', 'FG', 'GP', 'S-PBP', 'LAB', 'IND'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [44.39, 18.91, 12.05, 11.05, 4.78, 3.75, 2.62, 2.44],
+                    backgroundColor: [
+                        'rgba(09, 53, 05, 1)',
+                        'rgba(97, 1, 187, 1)',
+                        'rgba(26, 151, 22, 1)',
+                        'rgba(06, 02, 197, 1)',
+                        'rgba(83, 151, 77, 1)',
+                        'rgba(110, 46, 9, 1)',
+
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(128, 128, 128, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)',
+                        'rgba(0, 0, 0, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdrd').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FF', 'FF', 'GP', 'SD', 'S-PBP'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [22, 10, 4, 5, 12, 3],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
@@ -1240,14 +1491,128 @@
         });
     </script>
     <script>
-        var ctx = document.getElementById('myChart2').getContext('2d');
+        var ctx = document.getElementById('myChartdsc').getContext('2d');
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['SF', 'Ff', 'FF', 'GP', 'SD', 'S-PBP'],
+                labels: ['SF', 'FF', 'FF', 'GP', 'SD', 'S-PBP'],
                 datasets: [{
                     label: '# of First Preference Votes',
                     data: [22, 10, 4, 5, 12, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdsw').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FF', 'FF', 'GP', 'SD', 'S-PBP'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [22, 10, 4, 5, 12, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdw').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FF', 'FF', 'GP', 'SD', 'S-PBP'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [22, 10, 4, 5, 12, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChartdl').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'FF', 'FF', 'GP', 'SD', 'S-PBP'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [22, 10, 14, 2, 2, 6],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
