@@ -217,10 +217,12 @@
 
                         <span class="const-section-bottom">
                             <div>
-                                <div class="chart-wrapper">
+                                <!-- <div class="chart-wrapper">
                                     <img class="chart-img" src="/assets/img/DBNnew1.svg" alt="">
+                                </div> -->
+                                <div class="chart-js-trial">
+                                    <canvas id="myChart2"></canvas>
                                 </div>
-
                                 <table class="const-table-2">
                                     <tr class="table-head-2">
                                         <th>SF</th>
@@ -1208,6 +1210,44 @@
                 datasets: [{
                     label: '# of First Preference Votes',
                     data: [12, 19, 3, 5, 2, 3],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+    <script>
+        var ctx = document.getElementById('myChart2').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['SF', 'Ff', 'FF', 'GP', 'SD', 'S-PBP'],
+                datasets: [{
+                    label: '# of First Preference Votes',
+                    data: [22, 10, 4, 5, 12, 3],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
