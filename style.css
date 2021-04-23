@@ -573,7 +573,6 @@ body {
     content: "";
     position: absolute;
     transform: translate(0%, 28%);
-    background: url("assets/img/DubFingal.png")no-repeat;
     width: 6rem;
 
 }
@@ -584,7 +583,7 @@ body {
     background-position: 0 0;
     width: 219px;
     height: 170px;
-    transform: translate(2%, 18%);
+    transform: translate(0%, 28%);
     border-radius: 50%;
     background-image: url(/assets/img/DubFing.png);
     background-size: cover;
