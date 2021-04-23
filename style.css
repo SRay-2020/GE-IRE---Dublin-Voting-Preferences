@@ -573,7 +573,7 @@ body {
     content: "";
     position: absolute;
     transform: translate(0%, 28%);
-    background: url("assets/img/DubFingal.png")no-repeat;
+    /* background: url("assets/img/DubFingal.png")no-repeat; */
     width: 6rem;
 }
 
