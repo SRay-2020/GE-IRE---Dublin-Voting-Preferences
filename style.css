@@ -575,7 +575,6 @@ body {
     transform: translate(0%, 28%);
     background: url("assets/img/DubFingal.png")no-repeat;
     width: 6rem;
-
 }
 
 /* CONSTITUENCY MAP IMAGES */
@@ -606,7 +605,7 @@ body {
     height: 161px;
     transform: translate(10%, 23%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubBSouth1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubBSouth1.png);
     background-size: cover;
 }
 
@@ -616,7 +615,7 @@ body {
     height: 183px;
     transform: translate(5%, 16%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubCentral.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubCentral.png);
     background-size: cover;
 }
 
@@ -626,7 +625,7 @@ body {
     height: 236px;
     transform: translate(14%, -6%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubMWest1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubMWest1.png);
     background-size: cover;
 }
 
@@ -636,7 +635,7 @@ body {
     height: 166px;
     transform: translate(-4%, 22%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubNWest1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubNWest1.png);
     background-size: cover;
 }
 
@@ -646,7 +645,7 @@ body {
     height: 195px;
     transform: translate(17%, 10%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubRDown1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubRDown1.png);
     background-size: cover;
 }
 
@@ -656,7 +655,7 @@ body {
     height: 159px;
     transform: translate(1%, 25%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubSCentral1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubSCentral1.png);
     background-size: cover;
 }
 
@@ -666,7 +665,7 @@ body {
     height: 207px;
     transform: translate(4%, 4%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubSWest1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubSWest1.png);
     background-size: cover;
 }
 
@@ -676,7 +675,7 @@ body {
     height: 190px;
     transform: translate(12%, 10%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubWest1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubWest1.png);
     background-size: cover;
 }
 
@@ -686,7 +685,8 @@ body {
     height: 207px;
     transform: translate(15%, 6%);
     border-radius: 50%;
-    background-image: url(/assets/img/DubDLaogh1.png);
+    background-image: url(https://sray-2020.github.io/assets/img/DubDLaogh1.png);
+    /* background-image: url(/assets/img/DubDLaogh1.png); */
     background-size: cover;
 }
 
