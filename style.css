@@ -271,9 +271,10 @@ body {
     transform: translate(15px, -59px);
     border-collapse: collapse;
     margin: 0px;
-    font-size: 17px;
-
+    font-size: 15px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     background-color: rgb(226, 226, 226);
+    font-weight: bold;
 }
 
 .dub-info-table thead tr {
@@ -286,7 +287,7 @@ body {
 
 .dub-info-table th,
 .dub-info-table td {
-    padding: 6px 8px;
+    padding: 4px 6px;
 }
 
 .dub-info-table tbody tr {
@@ -300,7 +301,7 @@ body {
 
 .dub-info-table tbody tr:last-of-type {
 
-    border-bottom: 2px solid #47350e;
+    border-bottom: 2px solid #9c7725;
 }
 
 
@@ -321,7 +322,7 @@ body {
 
     background-color: #9c7725;
     color: #ffffff;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -448,15 +449,15 @@ body {
 
 .wrapper {
 
-    position: relative;
+    position: fixed;
     /* top: 50%;
     bottom: 50%; */
-    transform: translate(261px, -26px);
+    transform: translate(252px, -24px);
     background: rgb(40, 28, 66);
     width: 87rem;
     height: 47rem;
     display: flex;
-    border-radius: 12px;
+    border-radius: 2px;
 
     justify-content: center;
     max-height: 47rem;
@@ -468,8 +469,8 @@ body {
     background: rgb(76, 65, 124);
     padding: 10px 8px;
     align-items: left;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     box-shadow: 10px 0 13px 0px rgba(41, 41, 57, 0.7);
     transform: translate(-237px, 0px);
 }
@@ -1002,4 +1003,10 @@ body {
     width: 674px;
     height: 312px;
     transform: translate(-245px, -29px);
+}
+
+.chart-js-trial-main {
+    width: 579px;
+    height: 289px;
+    transform: translate(14px, -32px);
 }
