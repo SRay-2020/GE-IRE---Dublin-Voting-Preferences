@@ -1223,6 +1223,10 @@
         </div>
         <!-- END BG DIV -->
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.js"
+        integrity="sha512-aWx9jeVTj8X49UzUnUHGIlo6rNne1xNsCny/lL0QwUTQK2eilrHXpSk9xbRm4FJ4eLi2XBmnFlRkWPoChSx8bA=="
+        crossorigin="anonymous"></script>
+
     <script>
         var ctx = document.getElementById('myChartdfing').getContext('2d');
         var myChart = new Chart(ctx, {
@@ -1257,6 +1261,10 @@
                 }]
             },
             options: {
+                legend: {
+                    display: false
+                },
+
                 indexAxis: 'y',
                 scales: {
                     y: {
@@ -1685,7 +1693,8 @@
             }
         });
     </script>
-    <script src="tables.js"></script>
+
+    <!-- <script src="tables.js"></script> -->
     <script src="script.js"></script>
     <script src="direct_map.js"></script>
 </body>
