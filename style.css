@@ -307,23 +307,14 @@ body {
 
 /* page 2 TABLE  */
 
-.const-table {
 
-    transform: translate(461px, -350px);
-    width: 14rem;
-    font-size: 18px;
-    background-color: rgb(226, 226, 226);
-    border-collapse: collapse;
-    margin: 0px;
-
-}
 
 .const-table thead tr {
 
     background-color: #9c7725;
     color: #ffffff;
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .const-table th,
@@ -861,17 +852,28 @@ body {
 
 .const-table {
 
-    transform: translate(461px, -350px);
+    transform: translate(461px, -334px);
     width: 19rem;
-    font-size: 18px;
+    text-align: center;
+    font-size: 17px;
     background-color: rgb(226, 226, 226);
+    border-collapse: collapse;
+    margin: 0px;
+    font-size: 17px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-color: rgb(226, 226, 226);
+    font-weight: bold;
+}
+
+.party-name-left {
+    text-align: left;
 }
 
 
 .const-table-2 {
     text-align: center !important;
-    transform: translate(462px, -368px);
-    width: 21rem;
+    transform: translate(465px, -357px);
+    width: 20rem;
     font-size: 19px;
     font-weight: 600;
     background-color: rgb(226, 226, 226);
@@ -1003,11 +1005,24 @@ body {
 .chart-js-trial {
     width: 674px;
     height: 312px;
-    transform: translate(-245px, -29px);
+    transform: translate(-238px, -32px);
 }
 
 .chart-js-trial-main {
     width: 579px;
     height: 289px;
     transform: translate(14px, -32px);
+}
+
+.short-header {
+    transform: translate(465px, -344px);
+}
+
+.short-table {
+    transform: translate(461px, -318px);
+}
+
+.table-fix1 {
+    transform: translate(461px, -315px);
+    width: 21rem;
 }
