@@ -437,14 +437,15 @@ body {
 }
 
 .active {
-    color: #00a2ff;
+    color: rgb(175, 145, 61);
+
 }
 
 .btn-style {
     height: 2rem;
-    width: 5rem;
-    border-radius: 10px;
-    background-color: #5F0F40;
+    width: 7rem;
+    border-radius: 2px;
+    background-color: rgb(40, 28, 66);
 }
 
 .wrapper {
