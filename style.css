@@ -5,33 +5,25 @@
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
 .Main-title {
-
     text-align: center;
     font-size: 3rem;
     color: rgb(0, 0, 0);
     padding-bottom: 0rem;
     padding-top: 1rem;
     line-height: 45px;
-
-    /* transform: translateY(5.25rem); */
 }
 
 .Main-title2 {
-
     text-align: center;
     font-size: 3rem;
     color: rgb(0, 0, 0);
     padding-bottom: 2rem;
     padding-top: 1rem;
     line-height: 45px;
-
-
 }
-
 
 html {
     height: 100%;
@@ -50,38 +42,23 @@ body {
     background: radial-gradient(#c7c7c7, #8965b8);
     line-height: 22px;
     font-size: 14px;
-
 }
 
 .bg {
-    /* The image used */
-    /* background-image: url("/assets/img/bg4.jpg"); */
-
-    /* Full height */
-    /* height: 100%; */
     padding-bottom: 3rem;
     margin-bottom: 0px;
-
     margin: 0;
-    /* Center and scale the image nicely */
-    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: rgb(137, 130, 201); */
-    /* background: radial-gradient(#c7c7c7, #8965b8); */
 }
 
 .flexbox-container {
     display: flex;
     justify-content: center;
     height: 47rem;
-
-
-
 }
 
 .flexbox-item {
-
     width: 38rem;
     margin: 10px;
     background-color: rgb(40, 28, 66);
@@ -90,11 +67,7 @@ body {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 0rem;
-
-
-
 }
-
 
 .fb-left {
     min-height: 25rem;
@@ -110,87 +83,15 @@ body {
 }
 
 /* SVG FILE */
-
 .dub-map {
-
     transform: translate(1rem, -5rem);
-
 }
 
 .fb-left path {
-
-
     fill: rgb(175, 145, 61);
     stroke: #FFFFFF;
     stroke-width: 3;
     transition: fill 0.3s;
-}
-
-
-.dubrath {
-    fill: rgb(255, 251, 0);
-    stroke: #FFFFFF;
-    stroke-width: 1;
-}
-
-.dunlaogh {
-    fill: rgb(10, 10, 10);
-    stroke: #FFFFFF;
-    stroke-width: 1;
-}
-
-.fingal {
-    fill: rgb(118, 161, 87);
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubwest {
-    fill: rgb(21, 255, 0);
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubnwest {
-    fill: #38A6A5;
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubbnorth {
-    fill: #E17C05;
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubcentral {
-    fill: rgb(255, 0, 0);
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubmidwest {
-    fill: #0F8554;
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubscentral {
-    fill: rgb(0, 194, 228);
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubbsouth {
-    fill: #CC503E;
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
-}
-
-.dubswest {
-    fill: rgb(104, 75, 102);
-    stroke: #FFFFFF;
-    stroke-width: 0.7683;
 }
 
 /* USER FEEDBACK ON MAP */
@@ -206,7 +107,6 @@ body {
     fill: #38A6A5;
     transition: 0.6s;
     cursor: pointer;
-
 }
 
 /* TEXT LEFT BOX */
@@ -223,8 +123,6 @@ body {
 }
 
 .bottom-text-leftbox {
-
-
     font-size: 1.25rem;
     font-weight: 500;
     color: #fafafa;
@@ -243,9 +141,7 @@ body {
     padding-left: 11rem;
 }
 
-
 /* RIGHT BOX */
-
 .right-title {
     text-decoration: underline;
     font-size: 2rem;
@@ -259,26 +155,19 @@ body {
 
 /* PAGE 1 TABLE STYLING  */
 
-
 .dub-info-table {
-    /* width: 100%;
-    
-   border: 2px solid rgb(173, 139, 25) border: 2px solid rgb(0, 0, 0);
-    
-    border: 4px solid rgb(0, 0, 0); */
+
     width: 575px;
     height: 304px;
     transform: translate(15px, -59px);
     border-collapse: collapse;
     margin: 0px;
     font-size: 15px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     background-color: rgb(226, 226, 226);
     font-weight: bold;
 }
 
 .dub-info-table thead tr {
-
     background-color: #9c7725;
     color: #ffffff;
     text-align: left;
@@ -304,11 +193,7 @@ body {
     border-bottom: 2px solid #9c7725;
 }
 
-
 /* page 2 TABLE  */
-
-
-
 .const-table thead tr {
 
     background-color: #9c7725;
@@ -336,11 +221,6 @@ body {
     border-bottom: 2px solid #47350e;
 }
 
-
-
-
-
-
 .const-table-2 {
     text-align: center !important;
     transform: translate(462px, -368px);
@@ -352,41 +232,13 @@ body {
     /* max-width: 0px; */
     border: 1px solid gray;
     table-layout: fixed;
-
 }
-
-
-
-
-
-
 
 .dub-bars {
     transform: translate(4px, -629px);
     max-width: 65%;
-
 }
 
-
-
-
-
-
-/* PIE CHART */
-
-.dub-seats-pie {
-
-    transform: translate(390px, -6px);
-    /* Shows outline of SVG - NEED FIX */
-    /* border: 2px solid black; */
-}
-
-.dub-seats-pie path:hover {
-
-    fill: rgb(203, 218, 6);
-    transition: 0.6s;
-    cursor: pointer;
-}
 
 #data-points {
 
@@ -682,11 +534,6 @@ body {
     background-size: cover;
 }
 
-
-
-
-
-
 .wrapper-right .item .item_info p {
     font-size: 45px;
     line-height: 36px;
@@ -957,30 +804,7 @@ body {
     text-align: center;
     font-weight: 500;
     color: #fff;
-
 }
-
-/* 
-.wrapper-right .item.fingal .item_info .img:before {
-    background-position: 0 0;
-    width: 219px;
-    height: 170px;
-    transform: translate(2%, 18%);
-    border-radius: 50%;
-    background-image: url(/assets/img/DubFing.png);
-    background-size: cover;
-} */
-
-/* .const-section-bottom .chart-wrapper .charts-img {
-
-    width: 219px;
-    height: 170px;
-    transform: translate(0%, 0%);
-    border-radius: 50%;
-    background-image: url(/assets/img/Fingalchart2.svg);
-    background-size: cover;
-    display: inline-block;
-} */
 
 .chart-img {
     color: #000000;
@@ -988,12 +812,9 @@ body {
     height: 25rem;
     transform: translate(-100px, -18px);
     padding: 0px;
-
 }
 
 /* Bar Chart Styles */
-
-
 .chart-box {
     width: 578px;
     height: 306px;
