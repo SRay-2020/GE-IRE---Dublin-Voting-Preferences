@@ -851,7 +851,6 @@ body {
 
 /* MEDIA QUERIES */
 
-
 @media (max-width: 1200px) {
     .flexbox-container {
         width: 100%;
